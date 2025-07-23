@@ -4,7 +4,7 @@ from os import environ
 SESSION_CONFIGS = [
     dict(
         name='dictator_game',
-        display_name="Dictator Game",
+        display_name="Goal Oriented First",
         app_sequence=['dictator_game'],  # This links to your app folder
         num_demo_participants=100,  # Adjust as needed
     ),
@@ -46,6 +46,8 @@ openai_model='gpt-4'
 std_dev_goal=0.05
 std_dev_supervised=0.05
 mean=[0,0.25,0.5,0.75,1]
+data_path='players_data/'
+
 
 #DATABASES = {
 #    'default': {
